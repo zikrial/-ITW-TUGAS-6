@@ -1,0 +1,103 @@
+body {
+	color: red;
+	font-family: jokerman;
+	background-image: url(../images/back.jpg);
+	background-repeat: no-repeat;
+}
+.tombol {
+	width: 150px;
+	height: 150px;
+	line-height: 150px;
+	text-align: center;
+	font-family: comic sans ms;
+	font-size: 20px;
+	position: fixed;
+	border-radius: 25px;
+	-webkit-transition: all 2s ease;
+	-moz-transition: all 2s ease;
+	-o-transition: all 2s ease;
+	-ms-transition: all 2s ease;
+
+}
+.tombol:hover {
+	width: 200px;
+	height: 200px;
+	line-height: 200px;
+	font-size: 30px;
+	border-radius: 100px;
+	margin-top: -100px;
+	margin-left: -100px;
+	-webkit-box-shadow: 0 0 50px rgba(0,0,0,1);
+	-moz-box-shadow: 0 0 50px rgba(0,0,0,1);
+	-o-box-shadow: 0 0 50px rgba(0,0,0,1);
+	-ms-box-shadow: 0 0 50px rgba(0,0,0,1);
+	-webkit-transform: rotate(1440deg);
+	-moz-transform: rotate(1440deg);
+	-o-transform: rotate(1440deg);
+	-ms-transform: rotate(1440deg);
+}
+.tombol a{
+	color: black;
+	text-decoration: none;
+}
+.tombol:hover a {
+	color: white;
+	text-decoration: none;
+}
+.tbl1 {
+	left: 475px;
+	top: 150px;
+	background-color: lightgray;
+}
+.tbl1:hover {
+	left: 450px;
+	top: 200px;
+	background-color: red;
+}
+.tbl2 {
+	left: 675px;
+	top: 150px;
+	background-color: lightgray;
+}
+.tbl2:hover {
+	left: 800px;
+	top: 200px;
+	background-color: blue;
+}
+.tbl3 {
+	left: 475px;
+	top: 350px;
+	background-color: lightgray;
+}
+.tbl3:hover {
+	left: 450px;
+	top: 450px;
+	background-color: green;
+}
+.tbl4 {
+	left: 675px;
+	top: 350px;
+	background-color: lightgray;
+}
+.tbl4:hover {
+	left: 800px;
+	top: 450px;
+	background-color: black;
+}
+.judul {
+	text-align: center;
+	border-bottom: 3px solid black;
+	width: 200px;
+	margin-left: 540px;
+}
+h2 {
+	border-left: 3px solid black;
+	font-size: 27px;
+
+}
+.hay {
+	top: 600px;
+	position: fixed;
+	margin-left: 375px;
+	font-size: 30px;
+}

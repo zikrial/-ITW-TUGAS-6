@@ -1,0 +1,94 @@
+.kont {
+	width: 98.8%;
+	height: 260px;
+	background-color: #9ac2ff;
+	margin-top: 20px;
+	margin-bottom: 50px;
+	margin-left-right: auto;
+	position: fixed;
+}
+.obj-kont-1 {
+	width: 100%;
+	height: 60px;
+	background-image: url(../images/jalan.png);
+	background-position: center;
+	background-repeat: repeat-x;
+	position: absolute;
+	margin-top: -32px;
+	top: 230px;
+	z-index: 2;
+	-moz-animation: kont-1 2s infinite linear;
+	-webkit-animation: kont-1 2s infinite linear;
+	animation: kont-1 2s infinite linear;
+}
+@-moz-keyframes kont-1 {
+	from {background-position: 0 0;}
+	to {background-position: -190px 0;}
+}
+@-webkit-keyframes kont-1 {
+	from {background-position: 0 0;}
+	to {background-position: -190px 0;}
+}
+.obj-kont-2{
+    width: 100%;
+    height: 211px;
+    background-image: url(../images/gedung.png);
+    background-position bottom;
+    background-repeat : repeat;
+    position : center;
+    top : 35px;
+    z-index : 2;
+    -moz-animation: kont-2 13s infinite linear;
+    -webkit-animation: kont-2 13s infinite linear;
+    animation: kont-2 13s infinite linear;
+}
+@-moz-keyframes kont-2 {
+	from {background-position: 0 0;}
+	to {background-position: -400px 0;}
+}
+@-webkit-keyframes kont-2 {
+	from {background-position: 0 0;}
+	to {background-position: -400px 0;}
+}
+.obj-kont-3{
+    width: 150px;
+    height: 63px;
+    background-image: url(../images/super.png);
+    background-repeat: no-repeat;
+    position: fixed;
+    margin-top: 50px;
+    top: 100px;
+    left: 40%;
+    z-index: 3;
+    -moz-animation: kont-3 5s infinite linear;
+    -webkit-animation: kont-3 5s infinite linear;
+    animation: kont-3 5s infinite linear;
+}
+@-moz-keyframes kont-3 {
+	0%{top: 20px;}
+	50%{top: 42px;}
+	100%{top: 20px;}
+}
+@-webkit-keyframes kont-3 {
+	0%{top: 20px;}
+	50%{top: 42px;}
+	100%{top: 20px;}
+}
+.back {
+	position: fixed;
+	top: 500px;
+}
+a:link, a:visited {
+    background-color: white;
+    color: black;
+    border: 2px solid black;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
+
+a:hover, a:active {
+    background-color: black;
+    color: white;
+}
